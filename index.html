@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>To do list</title>
+</head>
+
+<body>
+
+	<main class="main">
+		<div class="wrapper">
+			<div class="wrapper__items">
+				<div class="inner">
+					<div class="input-inner">
+						<input maxlength="20" id="title-text" class="input-inner__item" type="text" placeholder="Title...">
+						<input maxlength="20" id="about-text" class="input-inner__item" type="text" placeholder="About...">
+					</div>
+					<button onclick="addTask()" class="button__add">
+						<img src="img/union.svg" alt="btn-img">
+					</button>
+				</div>
+			</div>
+			<div class="task-title">
+				<div class="task-title__element"></div>
+				<p class="task-title__item">
+					No tasks
+				</p>
+				<div class="task-title__element"></div>
+			</div>
+		</div>
+	</main>
+
+	<script src="js/main.js"></script>
+</body>
+
+</html>
